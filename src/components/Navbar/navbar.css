@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
 
+.nav-body{
+    background-color: #f2f2f2c7;
+    padding: 22px 0px;
+    margin-top: -27px;
+}
 
 .nav-container{
     /* border: 2px solid black; */
@@ -7,7 +12,7 @@
     display: flex;
     align-items: center;
     color: white;
-    background-color: #ff0066;
+    background-color: #E70074;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
     font-weight: bold;
@@ -22,4 +27,9 @@
 .fa-arrow-left{
     padding: 0px 15px;
     font-size: 18px;
+    cursor: pointer;
+}
+
+.fa-arrow-left:hover{
+    text-shadow: 2px 0px 5px grey;
 }

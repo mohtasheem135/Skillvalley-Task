@@ -6,6 +6,7 @@
     /* border: 2px solid black; */
     height: 110pc;
     background-color: #f2f2f2c7;
+    margin-top: -20px;
     
 }
 
@@ -45,6 +46,12 @@
 
 .fa-chevron-right{
     margin-right: 20px;
+    cursor: pointer;
+    
+}
+
+.fa-chevron-right:hover{
+  text-shadow: 2px 1px 3px black;
 }
 
 .switch {
@@ -86,11 +93,11 @@
   }
 
   input:checked + .slider {
-    background-color: #ff0066;
+    background-color: #E70074;
   }
   
   input:focus + .slider {
-    box-shadow: 0 0 1px #ff0066;
+    box-shadow: 0 0 1px #E70074;
   }
   
   input:checked + .slider:before {
@@ -147,7 +154,7 @@
       cursor: default;
       display: inline;
       font-weight: bold;
-      color: #ff0066;
+      color: #E70074;
   }
 
   .input-container-1{
@@ -209,6 +216,7 @@
 
   .apply-btn:hover{
     color: rgb(182, 3, 3);
+    cursor: pointer;
   }
 
   .table{
@@ -246,7 +254,7 @@
   cursor: default;
   display: contents;
   font-weight: bold;
-  color: #ff0066;
+  color: #E70074;
 }
 
 .payment-confirm{
@@ -273,6 +281,11 @@
   font-size: 23px;
   font-weight: bold;
   border-radius: 7px;
+}
+
+.pay-btn:hover{
+  cursor: pointer;
+  background-color: rgb(230, 43, 74);
 }
 
 @media only screen and (max-width: 768px){
