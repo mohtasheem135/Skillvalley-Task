@@ -1,0 +1,87 @@
+.footer-container{
+    /* border: 2px solid black; */
+    background-color: white;
+    margin-top: -82px;
+    height: 5pc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px -2px 5px grey;
+}
+
+.footer-hollow{
+    border-radius: 50px;
+    border: 2px solid grey;
+    height: 12px;
+    width: 10%; 
+}
+
+@media only screen and (max-width: 768px){
+    .footer-container{
+        margin-top: -22px;
+        height: 4pc;
+    }
+
+    .footer-hollow{
+        border-radius: 50px;
+        border: 2px solid grey;
+        height: 12px;
+        width: 26%; 
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .footer-container{
+        margin-top: 140px;
+        height: 4pc;
+    }
+
+    .footer-hollow{
+        border-radius: 50px;
+        border: 2px solid grey;
+        height: 12px;
+        width: 26%; 
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .footer-container{
+        margin-top: 20px;
+        height: 4pc;
+    }
+}
+
+@media only screen and (max-width: 420px){
+    .footer-container{
+        margin-top: 20px;
+        height: 4pc;
+    }
+}
+
+@media only screen and (max-width: 300px){
+    .footer-container{
+        margin-top: 120px;
+        height: 4pc;
+    }
+
+    .footer-hollow{
+        border-radius: 50px;
+        border: 2px solid grey;
+        height: 12px;
+        width: 26%; 
+    }
+}
+
+@media only screen and (max-width: 376px){
+    .footer-container{
+        margin-top: 12px;
+        height: 4pc;
+    }
+
+    .footer-hollow{
+        border-radius: 50px;
+        border: 2px solid grey;
+        height: 12px;
+        width: 26%; 
+    }
+}
